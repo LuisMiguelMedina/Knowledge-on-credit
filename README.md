@@ -1,1 +1,1 @@
-# ConocimientoACredito
+# Knowledge on credit
