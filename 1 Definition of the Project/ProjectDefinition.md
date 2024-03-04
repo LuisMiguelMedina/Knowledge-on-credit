@@ -12,23 +12,6 @@
 Informar a los estudiantes de la facultad de matemáticas, que aún no han adquirido una tarjeta de crédito, sobre el uso adecuado de las tarjetas de crédito, con el objetivo de prevenir posibles problemas financieros, como caer en morosidad o ingresar al buró. 
 
 
-## Relevancia Social 
-
-El proyecto aborda una problemática relevante en la sociedad actual, donde muchas personas, en especial los nuevos usuarios de tarjetas de crédito y los jóvenes, carecen de educación financiera. Esta falta de conocimiento puede llevar a problemas financieros graves, como morosidad y endeudamiento excesivo, lo que perjudica la capacidad de las personas para alcanzar sus metas financieras a corto y largo plazo. Al enseñar información precisa y práctica sobre el uso responsable de las tarjetas de crédito, se busca mejorar la educación financiera de los estudiantes de la Facultad de Matemáticas y prevenir futuros problemas financieros. 
-
-
-## Innovación 
-
-A día de hoy, existen algunas soluciones que han intentado abordar el problema, cursos y talleres presenciales, material educativo impreso o asesoramiento personalizado. Sin embargo, estas soluciones tienen limitaciones como lo son: poca accesibilidad, alcance reducido y falta de personalización. 
-
-
-La innovación del proyecto está en la combinación de métodos de enseñanza modernos y accesibles, combinando: texto, audio, video y ejercicios prácticos, para proporcionar una experiencia de aprendizaje interactiva y efectiva, personalizando así la enseñanza. Además, la función de tomar notas y compartirlas con otros usuarios agrega un elemento colaborativo y social al proceso de aprendizaje. Al ser un programa virtual, su alcance y accesibilidad será grande, pues cualquiera con un dispositivo inteligente (entre los soportados) podrá acceder a la aplicación. 
-
-
-## Factibilidad 
-
-Además, hay una demanda creciente de educación financiera entre los jóvenes y los nuevos usuarios de tarjetas de crédito, lo que garantiza un mercado objetivo para la aplicación. El uso de anuncios dentro de la app ayudará a hacerlo sostenible económicamente pues, con un gran mercado de usuarios usando la aplicación, estos se vuelven más factibles. 
-
 
 # Objetivos 
 
