@@ -11,6 +11,8 @@
 ## Meta 
 Informar a los estudiantes de la facultad de matemáticas, que aún no han adquirido una tarjeta de crédito, sobre el uso adecuado de las tarjetas de crédito, con el objetivo de prevenir posibles problemas financieros, como caer en morosidad o ingresar al buró. 
 
+## Relevancia Social
+El proyecto aborda una problemática relevante en la sociedad actual, donde muchas personas, en especial los nuevos usuarios de tarjetas de crédito y los jóvenes, carecen de educación financiera. Esta falta de conocimiento puede llevar a problemas financieros graves, como morosidad y endeudamiento excesivo, lo que perjudica la capacidad de las personas para alcanzar sus metas financieras a corto y largo plazo. Al enseñar información precisa y práctica sobre el uso responsable de las tarjetas de crédito, se busca mejorar la educación financiera de los estudiantes de la Facultad de Matemáticas y prevenir futuros problemas financieros.
 
 
 # Objetivos 
