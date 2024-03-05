@@ -29,6 +29,17 @@ Además, hay una demanda creciente de educación financiera entre los jóvenes y
 | --- | --------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | OF1 | Funcional | Brindar información correcta sobre el funcionamiento de una tarjeta de crédito. | La información que vamos a presentar tiene que pertenecer a la realidad para que nuestro usuario pueda llevar este conocimiento a la práctica. |
 | OF2 | Funcional | Permitir al usuario probar sus conocimientos a través de pruebas.               | De esta forma el usuario puede practicar con el conocimiento adquirido antes de intentar en la vida real.                                      |
+| ONF1 | No Funcional | Accesibilidad: Brindar información accesible para todos los estudiantes, sin importar su condición socioeconómica, cultural, tecnológica o limitaciones fisiológicas. | Que la mayor cantidad de personas puedan acceder a educación financiera y podamos prevenir errores financieros, independientemente de situaciones particulares. |
+| ONF2 | No Funcional | Eficiencia: Reducir el tiempo de aprendizaje necesario (Que aprenda rápido)| Al adquirir conocimiento rápidamente estos tendrán el conocimiento necesario para utilizar una tarjeta de crédito a la brevedad. |
+| ONF3 | No Funcional | Retención: Hacer que el usuario aprenda estos conceptos (Que los recuerde y aprenda mejor). | Permite que el usuario no sea dependiente del producto y sea capaz de utilizar conocimientos de manera autónoma. |
+| ONF4 | No Funcional | Simplicidad: Simplificar y seccionar la complejidad de la información relativa a las tarjetas de crédito para facilitar el aprendizaje.(Que no le resulte complicado) | De esta forma la información que podría resultar compleja, puede llegar a comprenderse por cualquier persona. |
+| ONF5 | No Funcional | Reducir fricción: Transmitir la información del modo más “amigable” posible. (Que le parezca entretenido). | Para que el usuario no rehúse el aprendizaje, sin reducir la calidad de la información. |
+
+## Usuarios potenciales
+
+Personas de la población que estarían interesadas en adquirir una tarjeta de crédito y deseen aprender sobre su uso correcto, ya que son los que queremos prevenir que incurran en morosidad o entrar en buró debido a un mal uso de tarjetas.
+
+
 
 
 
