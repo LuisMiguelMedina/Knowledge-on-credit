@@ -114,3 +114,27 @@ Con el tiempo, gracias a su arduo trabajo y al aprendizaje continuo a través de
 - Síntesis:  la aplicación se adapta al estilo de aprendizaje práctico y experiencial de Enzo
     
 
+## Requisitos de negocio
+
+| ID  | Trazabilidad (P) |                     | Descripción                                                                                   |
+|-----|------------------|---------------------|-----------------------------------------------------------------------------------------------|
+| RN1 | RP1              | Información sobre el funcionamiento de una tarjeta de crédito.                                | La aplicación debe proporcionar información precisa y realista sobre el funcionamiento de una tarjeta de crédito.|
+| RN2 | RP2              | Capacidad para practicar conocimientos mediante pruebas.                                     | La aplicación debe permitir a los usuarios practicar sus conocimientos mediante pruebas.     |
+
+
+
+## Requisitos de Usuario
+
+| ID  | Trazabilidad (Persona) |                      | Descripción                                                                                                                      |
+|-----|-------------------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| RU1 | P1, P2, P3              | Información correcta sobre el funcionamiento de una tarjeta de crédito.                                                         | Los usuarios deben poder acceder a información correcta sobre el funcionamiento de una tarjeta de crédito.                      |
+| RU2 | P1, P2, P3              | Capacidad para practicar y evaluar conocimientos.                                                                                | Los usuarios deben tener la capacidad de practicar y evaluar sus conocimientos a través de pruebas (ejercicios prácticos como juegos de rol, cuestionarios, rellenar o visuales). |
+| RU3 | P1, P2, P3              | Aprender información sustancial.                                                                                                 | El usuario necesita aprender información sustancial con solo 20 minutos repartidos durante el día.                                |
+| RU4 | P1, P2                  | Poder tomar notas.                                                                                                              | El usuario necesita tomar notas (texto, diagramas e imágenes).                                                                  |
+| RU5 | P1                       | Comparar notas.                                                                                                                  | El usuario necesita comparar sus notas con otras personas.                                                                      |
+| RU6 | P1, P2                  | Acceder al texto de las lecciones.                                                                                               | El usuario accede a lecciones en texto.                                                                                        |
+| RU7 | P1, P2                  | Acceder al audio de las lecciones.                                                                                               | El usuario accede a lecciones en audio.                                                                                        |
+| RU8 | P1, P2, P3              | Acceder a videos sobre las lecciones.                                                                                            | El usuario accede a lecciones en video.                                                                                        |
+| RU9 | P3                      | Consejos.                                                                                                                         | El usuario recibe consejos sobre las lecciones.                                                                                 |
+| RU10| P2, P3                  | Acceder a imágenes en las lecciones.                                                                                             | El usuario accede a lecciones con imágenes (imágenes con diagramas o imágenes informativas).                                  |
+
