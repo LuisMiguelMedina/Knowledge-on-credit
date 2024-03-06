@@ -138,3 +138,53 @@ Con el tiempo, gracias a su arduo trabajo y al aprendizaje continuo a través de
 | RU9 | P3                      | Consejos.                                                                                                                         | El usuario recibe consejos sobre las lecciones.                                                                                 |
 | RU10| P2, P3                  | Acceder a imágenes en las lecciones.                                                                                             | El usuario accede a lecciones con imágenes (imágenes con diagramas o imágenes informativas).                                  |
 
+
+
+
+# Requisitos de sistema
+
+### Requisitos funcionales
+
+|   |   |   |   |
+|---|---|---|---|
+|ID|Trazabilidad (RU)||Descripción|
+|RF1|RN1, PN1|Información sobre el funcionamiento de una tarjeta de crédito.|La aplicación debe presentar información precisa y realista sobre el funcionamiento de una tarjeta de crédito.|
+|RF2|RN2, PN1|Capacidad para practicar y evaluar conocimientos.|La aplicación debe proporcionar a los usuarios la capacidad de practicar y evaluar sus conocimientos mediante pruebas (ejercicios prácticos como juegos de rol, cuestionarios, rellenar o visuales)..|
+|RF3|RU2|Información financiera|La aplicación debe contener información financiera.|
+|RF4|RU3|Lecciones|La información debe estar seccionada en lecciones.|
+|RF5|RU3|Lecciones|Las lecciones se visualizan en forma de camino|
+|RF6|RU4|Notas|El usuario puede acceder a sus notas haciendo click en un botón.|
+|RF7|RU4|Notas|El usuario puede escribir notas en una libreta.|
+|RF8|RU4|Notas|El usuario puede dibujar notas en una libreta.|
+|RF9|RU5|Imágenes (en sus notas)|El usuario puede insertar imágenes(Imágenes o diagramas) en sus notas.|
+|RF10|RU5|Notas (pestaña de comunidad)|El usuario puede compartir sus notas en una pestaña de comunidad.|
+|RF11|RU5|Notas de otras personas|El usuario puede ver las notas de otras personas en un feed en la pestaña de comunidad.|
+|RF12|RU6|Lecciones|El usuario puede acceder a lecciones en texto.|
+|RF13|RU6, RU7|Lecciones|El usuario puede escuchar lecciones en texto.|
+|RF14|RU8|Videos|El usuario puede ver videos sobre las lecciones.|
+|RF15|RU2|Retroalimentación.|La aplicación debe de dar retroalimentación inmediata después de terminar una lección o ejercicio.|
+|RF16|RU9|Consejos|La aplicación muestra consejos sobre las lecciones|
+|RF17|RU10|Imágenes|El usuario puede visualizar imágenes en las lecciones.|
+
+### Requisitos no funcionales
+
+|   |   |   |   |
+|---|---|---|---|
+|ID|Trazabilidad (RF)|Atributo McCall|Descripción|
+|RNF1|RF1|Usabilidad|La información debe ser accesible y fácil de entender para todos los usuarios, independientemente de su nivel de experiencia o conocimiento previo sobre finanzas.|
+|RNF2|RF1|Exactitud|La información presentada debe ser la mínima necesaria para reducir el tiempo necesario para que los usuarios adquieran conocimientos sobre el uso responsable de tarjetas de crédito.|
+|RNF3|RF1, RF3, RF4|Usabilidad|La aplicación debe presentar por secciones la información sobre tarjetas de crédito, de modo que la cantidad sea la justa para facilitar el aprendizaje.|
+|RNF4|RF1|Usabilidad|La aplicación debe transmitir la información de manera amigable y entretenida para reducir la fricción en el aprendizaje.|
+|RNF5|RF14|Exactitud|Los videos deben de ser de una excelente calidad visual (entre 480-1080p) y auditiva.|
+|RNF6|RF1, RF3|Usabilidad|Los gráficos deben de ser fáciles de entender (no tener información saturada, estar ordenados, etc.)|
+|RNF7|RF1, RF3|Exactitud.|Las preguntas realizadas no deben de ser ambiguas.|
+|RNF8|RF15, RF16|Exactitud|La aplicación debe ofrecer retroalimentación instantánea para acelerar el aprendizaje.|
+|RNF9|RF1|Exactitud.|Los escenarios prácticos deben de ser lógicos, realistas y validados por un experto en el tema.|
+|RNF10|RF3|Exactitud|La información presentada debe de ajustarse a la realidad y validada por algún experto en el tema.|
+|RNF11|RF5, RF6, RF7|Usabilidad|Todos los botones deben de seguir el estándar “Material Icons” para considerarse intuitivos.|
+|RNF12|RF5, RF6, RF7, RF8, RF9|Usabilidad|Entrenar a un usuario para poder usar la libreta debería tomar solo un tutorial dentro de la aplicación de no más de 5 minutos.|
+|RNF13|RF10|Usabilidad|El tamaño del texto es legible al ser de 16px en móvil.|
+|RNF14|RF11, RF13|Usabilidad|La voz del lector debe ser clara, de modo que se pueda comprender el mensaje incluso si se reproduce en una zona con mucho ruido de fondo.|
+|RNF15|RF11|Usabilidad|El volúmen de la voz debe rondar los 60-85 decibeles para poder escuchar y comprender el mensaje.|
+|RNF16|RF17|Usabilidad|Las imágenes de las lecciones deben tener un tamaño igual o mayor a los 1080x720|
+|RNF17|RF2|Usabilidad|Los juegos deben de ser entretenidos, simples y fáciles de entender para que los usuarios quieran usar la aplicación.|**
