@@ -109,18 +109,13 @@ Plantilla: Aprende de manera X porque Y, le gusta aprender Z y su fuente preferi
 ## Tipos de usuario 
 
 - Grupos:  
-	- Los que prefieren la calidad: Auditivos y Lectores 
-	- Los que prefieren un resumen: Visual 
-	- Los que prefieren la retención: Kinestésico 
+	- Los que prefieren la calidad: Auditivos y Lectores
+	- Los que prefieren un resumen: Visual
+	- Los que prefieren la retención: Kinestésico
 	- Los que prefieren la diversidad y facilidad (YouTube y Páginas Web) 
 	- Los que prefieren la diversión (TikTok)  
-	- Los que prefieren la calidad de la información (Libros) 
+	- Los que prefieren la calidad de la información (Libros)
 - Usuarios: Orden descendente según la cantidad de personas  
 	- Resumen y facilidad: YouTube/Páginas web/TikTok (medio), Visual (tipo) 
-	- Calidad: Libros (medio), Tipo (auditivo y lector) 
-	- Retención: YouTube (medio), Kinestésico (tipo) 
- 
-
-
-
-
+	- Calidad: Libros (medio), Tipo (auditivo y lector)
+	- Retención: YouTube (medio), Kinestésico (tipo)
