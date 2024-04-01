@@ -7,6 +7,9 @@
 ### In designing the sampling strategy, we strove to reflect the diversity of our user base, but <mark>we also learned that segmentation must go hand in hand with protecting the privacy of participants</mark>. Maintaining anonymity and avoiding the misuse of personal data became a need in our research [2].
 
 ## References
-#### 1. Korobkin, R. "What Motivates People: Not the Endowment Effect." Law and Economics Research Paper Series. Available at: https://scholarship.law.bu.edu/faculty_scholarship/781/
-#### 2. Federal Bureau of Investigation. "Elicitation Techniques." FBI.gov. Available at: https://www.fbi.gov/file-repository/elicitation-brochure.pdf/view
-#### 3. SoftKraft. "8 Powerful Requirements Elicitation Techniques." Available at: https://www.softkraft.co/requirements-elicitation/
+
+#### 1. Korobkin, R. "What Motivates People: Not the Endowment Effect." Law and Economics Research Paper Series. [Online]. Available: https://scholarship.law.bu.edu/faculty_scholarship/781/. [Accessed: March 31, 2024].
+
+#### 2. Federal Bureau of Investigation. "Elicitation Techniques." FBI.gov. [Online]. Available: https://www.fbi.gov/file-repository/elicitation-brochure.pdf/view. [Accessed: March 31, 2024].
+
+#### 3. SoftKraft. "8 Powerful Requirements Elicitation Techniques." [Online]. Available: https://www.softkraft.co/requirements-elicitation/. [Accessed: March 31, 2024].

@@ -18,7 +18,11 @@
 ### Over time, the system could lead to better learning outcomes, as users are more focused and can easily recognize areas needing improvement [3].
 
 ### Referencias
-#### 1. Columbia Engineering Boot Camps. "What Is UX Design?" https://bootcamp.cvn.columbia.edu/blog/what-is-ux-design/
-#### 2. Interaction Design Foundation. "Usability." https://www.interaction-design.org/literature/topics/usability
-#### 3. Figma. "The Difference Between UI and UX." https://www.figma.com/resource-library/difference-between-ui-and-ux/
-#### 4. Userpilot. "Usability vs User Experience." https://userpilot.com/blog/usability-vs-user-experience/
+
+#### 1. Columbia Engineering Boot Camps, "What Is UX Design?" [Online]. Available: https://bootcamp.cvn.columbia.edu/blog/what-is-ux-design/.
+
+#### 2. Interaction Design Foundation, "Usability." [Online]. Available: https://www.interaction-design.org/literature/topics/usability.
+
+#### 3. Figma, "The Difference Between UI and UX." [Online]. Available: https://www.figma.com/resource-library/difference-between-ui-and-ux/.
+
+#### 4. Userpilot, "Usability vs User Experience." [Online]. Available: https://userpilot.com/blog/usability-vs-user-experience/.
