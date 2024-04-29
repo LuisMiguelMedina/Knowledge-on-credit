@@ -1,0 +1,1 @@
+The concepts of UI and UX frequently are misunderstood and misused. Using as reference the following article: "UX vs UI: What’s the Difference? (And How They Apply to WordPress)" provide a clear difference between the concepts. Use two examples based on your team project to clarify each concept. The examples of UI and UX must be specific and clearly explained.
