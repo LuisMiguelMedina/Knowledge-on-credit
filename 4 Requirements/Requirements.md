@@ -6,6 +6,7 @@
 This document is loosely based on the IEEE Std 830-1998 Recommended Practice for Software Requirements Specifications.  
 
 # 2 Overall Description 
+
 ## 2.1 Product functions 
 
 The Knowledge on Credit will present information to the user in the form of quick interactive lectures and provide feedback on the answers the user enters. It will also allow the user to take notes on the lectures and share them with a community.  
@@ -32,6 +33,17 @@ The user is our focal Persona: Ernesto Bocadillo. The main need of the user is t
   - Relate concepts
   - Complete sentence
 - Rubric view
+  
+## 3.2 Functional Requirements
+
+### 3.2.1 Authentication and Registration
+
+1. The system shall allow the user to register an account with unique credentials within 5 seconds
+2. The system shall notify the user if the account was successfully created within 10 seconds after entering their credentials.
+3. The system shall notify the user if the account was not successfully created and indicate the reason within 10 seconds after entering their credentials and.
+4. The system shall allow the user to log-in to their account.
+5. The system shall notify the user if their login was successful within 10 seconds after the credentials are entered.
+6. The system shall notify the user if their login failed and indicate the reason within 10 seconds after the credentials were entered.
 
 
 
