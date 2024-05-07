@@ -95,4 +95,56 @@ The user is our focal Persona: Ernesto Bocadillo. The main need of the user is t
 
 - **Effectiveness**:
     - ***Non-Functional Requirement 12***: Failure notifications shall clearly state the problem and suggest corrective actions.
+ 
+      
+### 3.3.3 Access lessons
 
+**Preconditions**: The user has to be logged-in.
+
+#### 1. The system shall allow the user to view their study plan within 10 seconds of logging in.
+
+- **Effectiveness**:
+    - ***Non-Functional Requirement 13***: Viewing the study plan shall be intuitive, with user access times verified to be within 10 seconds of login.
+
+#### 2. The system shall allow the user to select a lesson from the study plan (if the lesson is available)
+
+- **Effectiveness**:
+    - ***Non-Functional Requirement 14***: The system should provide visually friendly information about the available lessons using visual aids such as lock icons.
+
+#### 3. The system shall present the user with the lesson after 10 seconds of selecting it.
+
+- **Effectiveness**:
+    - ***Non-Functional Requirement 15***: The lesson should have a clear and intuitive layout
+
+#### 4. The system shall allow the user to answer the questions on the test within 10 seconds after finishing the lesson.
+
+- **Efficiency**:
+    - ***Non-Functional Requirement 16***: The system shall ensure that test interaction is quick and responsive.
+
+#### 5. The system shall provide a report with comments on incorrect answers if the user scored less than 100% on the test, within 10 seconds of completing it.
+
+- **Effectiveness**:
+    - ***Non-Functional Requirement 17***: The display of the user's score shall be clear.
+    - ***Non-Functional Requirement 18***: The feedback on the incorrect answers shall be clear.
+
+#### 6. The system shall allow the user to proceed to the next lesson if they score 70% or higher on the current lesson.
+
+- **Effectiveness**:
+    - ***Non-Functional Requirement 19***: The system shall clearly indicate eligibility to proceed to the next lesson upon achieving a 70% score.
+- **Error Tolerance**:
+    - ***Non-Functional Requirement 20***: Restrictions on lesson advancement shall be clearly communicated to the user.
+
+#### 7. The system shall allow the user to retake the lesson until they score 70% or higher.
+
+- **Effectiveness**:
+    - ***Non-Functional Requirement 21***: The option to re-take the lesson should be clear and intuitive on the lesson selection
+
+#### 8. The system shall allow the user to revisit previous lessons.
+
+- **Effectiveness**:
+    - ***Non-Functional Requirement 22***: The system should present lessons that the user can revisit in a friendly manner using visual aids such as arrow icons.
+
+#### 9. The system shall prevent the user from accessing lessons beyond their current progress.
+
+- **Effectiveness**:
+    - ***Non-Functional Requirement 23***: The system shall provide visual cues that prevent the user from accessing lessons beyond their current progress, verified through user testing.
