@@ -45,5 +45,15 @@ The user is our focal Persona: Ernesto Bocadillo. The main need of the user is t
 5. The system shall notify the user if their login was successful within 10 seconds after the credentials are entered.
 6. The system shall notify the user if their login failed and indicate the reason within 10 seconds after the credentials were entered.
 
+## 3.3 Non-functional Requirements
+### Introduction
 
+**Contents of the section**: This section describes the non-functional requirements that apply to the project. The non-functional requirements focus on the usability requirements.
+
+**Document organization**: The document is divided into 3 sections: the first one indicates the non-functional requirements at the system level, while the other 2 apply to the two groups of functional requirements they’re applied to. Each section is divided into the specific functional requirements the non-functional requirements are attached: The funcional requirement appears as the title of the sub-section, while the non-functional requirement appear as bullet points. The Usability requirements are grouped by the usability factor they belong to. 
+
+### 3.3.1 System Requirements
+
+- ***Non-Functional Requirement 1***: The system shall use the Material Design design system with icons and components from the MaterialUI framework
+- ***Non-Functional Requirement 2***: The system shall use the font: Roboto for everything.
 
