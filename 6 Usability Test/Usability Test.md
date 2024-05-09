@@ -11,28 +11,28 @@ Now, according to our end users who are young people who want to receive financi
 # 3.3.2 Authentication and Registration.
 
 ## 1. Account creation with unique credentials.
-- Understandability**: The form and process should be easy to understand and use.
-- Justification**: The account creation process should be clear and quick, allowing users to start learning without unnecessary delays.
+- Understandability: The form and process should be easy to understand and use.
+- Justification: The account creation process should be clear and quick, allowing users to start learning without unnecessary delays.
 
 ## 2. Notification of successful account creation.
-- Understandability**: Notifications should be immediately understandable.
-- **Justification**: Clear notifications and visual/audible cues effectively confirm account creation, enhancing the user experience by facilitating immediate access to educational content.
+- Understandability: Notifications should be immediately understandable.
+- Justification: Clear notifications and visual/audible cues effectively confirm account creation, enhancing the user experience by facilitating immediate access to educational content.
 
 ## 3. Notification of failed account creation.
-- Understandability**: Error messages should be easily understandable and straightforward.
-- Justification**: Providing clear error information allows users to quickly resolve problems and continue their access to learning.
+- Understandability: Error messages should be easily understandable and straightforward.
+- Justification: Providing clear error information allows users to quickly resolve problems and continue their access to learning.
 
 ## 4. Account Access
-- Understandability**: The login interface should be intuitive and clear.
-- Justification**: A simple and aesthetically pleasing login interface is crucial for users to feel comfortable and focus on their education.
+- Understandability: The login interface should be intuitive and clear.
+- Justification: A simple and aesthetically pleasing login interface is crucial for users to feel comfortable and focus on their education.
 
 ## Notification of successful access
-- Understandability**: Access notifications should be clear and straightforward.
-- Justification**: Confirming access clearly and quickly ensures that users are informed and can begin learning without delay.
+- Understandability: Access notifications should be clear and straightforward.
+- Justification: Confirming access clearly and quickly ensures that users are informed and can begin learning without delay.
 
 ## 6. Notification of access failure
-- Understandability**: A clear explanation of the problem should be provided.
-- Justification**: Clearly reporting access problems and suggesting corrective actions helps to maintain smooth platform use.
+- Understandability: A clear explanation of the problem should be provided.
+- Justification: Clearly reporting access problems and suggesting corrective actions helps to maintain smooth platform use.
 
 # 3.3.3.3 Access to Lessons
 
@@ -90,9 +90,10 @@ Now, according to our end users who are young people who want to receive financi
 ### - Usability Objectives Assessed: Understandability, error tolerance.
 
 ## 2. System Login
-### - Task: Login with existing credentials.
-### - Scenario: An existing user tries to access his account to start or continue his lessons in the application. He should receive clear notifications that he successfully logged in or that he did not enter the correct credentials.
-### - Usability Objectives Assessed: Understandability, error tolerance.
+
+###Task: Login with existing credentials.
+###Scenario: An existing user tries to access his account to start or continue his lessons in the application. He should receive clear notifications that he successfully logged in or that he did not enter the correct credentials.
+###Usability Objectives Assessed: Understandability, error tolerance.
 
 ## 3.    Access and Lesson Selection
 ### - Task: Browse and select a specific lesson from your curriculum.
