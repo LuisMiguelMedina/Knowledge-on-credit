@@ -90,9 +90,9 @@ The number of participants will depend on our target audience, but also on the t
 - Usability Objectives Assessed: Understandability, error tolerance.
 
 ## 2.1    Access and Lesson Selection
-### - Task: Browse and select a specific lesson from your curriculum.
-### - Scenario: A user wants to review a specific lesson and selects it from an available list. He should be able to access the lesson and start it as long as it is available. In case it is not available, the system should clearly mention the restriction to the lesson.
-### - Usability Objectives Assessed: Comprehensibility.
+- Task: Browse and select a specific lesson from your curriculum.
+- Scenario: A user wants to review a specific lesson and selects it from an available list. He should be able to access the lesson and start it as long as it is available. In case it is not available, the system should clearly mention the restriction to the lesson.
+- Usability Objectives Assessed: Comprehensibility.
 
 ## 2.2    Interaction with Lesson Content
 - Task: Complete a lesson and answer the quiz questions associated with the lesson.
