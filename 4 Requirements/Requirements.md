@@ -45,6 +45,19 @@ The user is our focal Persona: Ernesto Bocadillo. The main need of the user is t
 5. The system shall notify the user if their login was successful within 10 seconds after the credentials are entered.
 6. The system shall notify the user if their login failed and indicate the reason within 10 seconds after the credentials were entered.
 
+# 3.2.2 Access lessons
+
+- **Preconditions**: The user has to be logged-in.
+1. The system shall allow the user to view their study plan within 10 seconds of logging in.
+2. The system shall allow the user to select a lesson from the study plan (if the lesson is available)
+3. The system shall present the user with the lesson after 10 seconds of selecting it.
+4. The system shall allow the user to answer the questions on the test within 10 seconds after finishing the lesson.
+5. The system shall provide a report with feedback on incorrect answers if the user scored less than 100% on the test, within 10 seconds of completing it.
+6. The system shall allow the user to proceed to the next lesson if they score 70% or higher on the current lesson.
+7. The system shall allow the user to retake the lesson until they score 70% or higher.
+8. The system shall allow the user to revisit previous lessons.
+9. The system shall prevent the user from accessing lessons beyond their current progress.
+
 ## 3.3 Non-functional Requirements
 ### Introduction
 
