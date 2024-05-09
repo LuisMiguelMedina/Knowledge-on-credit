@@ -25,3 +25,7 @@ With these insights, we outlined what our solution needs to do and be. Functiona
 ## Conclusion First Delivery:
 
 So that's where we're at. We're creating a solution that cuts through the confusion of credit management and makes learning about it easy and engaging for FMAT students. Our team is looking forward to making this project a great success and making a real difference in how we manage our finances for young people.
+
+## Figma Link:
+
+https://www.figma.com/file/koWFtghr86fkwsB2xgGxAW/CardHub-Mockup?type=design&node-id=0%3A1&mode=design&t=krMSOMfC10xxyhP1-1
