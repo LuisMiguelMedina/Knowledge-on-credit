@@ -52,11 +52,11 @@ Now, according to our end users who are young people who want to receive financi
 - **Comprehensibility**: Questions and answer choices should be clear and concise.
 - Justification**: Presenting questions in a clear and organized manner is essential for a proper assessment of the knowledge acquired by the user.
 
-## Reporting incorrect answers
+## 5. Reporting incorrect answers
 - Understandability**: Feedback should be direct and easy to understand.
 - Justification**: Providing clear and timely feedback on incorrect answers is crucial for users to understand their mistakes and learn from them.
 
-## Progress to the next lesson.
+## 6. Progress to the next lesson.
 - Understandability**: Criteria for progression should be explicit and clear.
 - Justification**: Clearly communicating the criteria for progression to the next lesson motivates users and provides them with clear goals in their educational process.
 
@@ -80,20 +80,20 @@ Now, according to our end users who are young people who want to receive financi
 
 # 1- Selection and number of participants:
 
-##- The number of participants will depend on our target audience, but also on the time available to finish in a timely manner. Although there is no exact number, we suggest between 5 and 10 participants to find most of the usability problems. As for the selection, they will be FMAT students in the age range of 18 to 24 years old.
+## The number of participants will depend on our target audience, but also on the time available to finish in a timely manner. Although there is no exact number, we suggest between 5 and 10 participants to find most of the usability problems. As for the selection, they will be FMAT students in the age range of 18 to 24 years old.
 
 # 2.- Adjusted Tasks and Test Scenarios
 
 ## 1. User Registration.
-### - Task: Register to the system using unique credentials.
+### - Task:Register to the system using unique credentials.
 ### - Scenario: A new user wishes to create an account to access system services. He/she must be able to complete the registration form and receive a clearly understandable success or error notification within the set times.
 ### - Usability Objectives Assessed: Understandability, error tolerance.
 
 ## 2. System Login
 
-###Task: Login with existing credentials.
-###Scenario: An existing user tries to access his account to start or continue his lessons in the application. He should receive clear notifications that he successfully logged in or that he did not enter the correct credentials.
-###Usability Objectives Assessed: Understandability, error tolerance.
+### Task: Login with existing credentials.
+### Scenario: An existing user tries to access his account to start or continue his lessons in the application. He should receive clear notifications that he successfully logged in or that he did not enter the correct credentials.
+### Usability Objectives Assessed: Understandability, error tolerance.
 
 ## 3.    Access and Lesson Selection
 ### - Task: Browse and select a specific lesson from your curriculum.
