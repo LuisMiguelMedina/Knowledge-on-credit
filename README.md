@@ -1,10 +1,10 @@
-# 2nd Delivery presentation
+# 3rd Delivery presentation
 
-[![Nombre o descripción del video](/Assets/Second%20Delivery.png)](https://www.canva.com/design/DAGEseMreAY/59FJtE1dAO9-GnyaCqZcfA/edit?utm_content=DAGEseMreAY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[![Nombre o descripción del video](/Assets/)](#)
 
 ## Prototype
 
-[![Nombre o descripción del video](/Assets/Prototype.png)](https://www.figma.com/proto/koWFtghr86fkwsB2xgGxAW/CardHub-Mockup?type=design&node-id=13-62&t=YhIfjuTutZWbtXAJ-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=13%3A62&mode=design)
+[![Nombre o descripción del video](/Assets/Prototype.png)](https://www.figma.com/proto/mjGOYql46pLBqQkoefz0mY/High-Fidelity-Prototype-(New)?node-id=0-3&t=u07O89fjw2Baz6jg-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=0%3A3)
 
 # About the proyect
 
