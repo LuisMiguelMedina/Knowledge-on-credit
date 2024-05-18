@@ -67,3 +67,34 @@ In text:
 - Sentiment value for Luismi1.md: 0.045000000000000005
 - Sentiment value for Luismi2.md: 0.24749999999999991
 - Sentiment value for Luismi3.md: 0.30714285714285716
+
+# Explanation of the Sentiment Analysis Graph
+
+## Introduction
+This bar graph shows the results of a sentiment analysis conducted on various documents. Sentiment analysis evaluates text content to determine the expressed attitude, which can be positive, negative, or neutral. The values in the graph represent sentiment scores, where a higher value indicates a more positive attitude and a lower value suggests a more negative attitude.
+
+## X-Axis (Horizontal)
+The X-axis of the graph lists the analyzed documents. Each document has a unique name, for example, "Arturo_1.md", "Arturo_2.md", etc. These names individually identify each document in the dataset.
+
+## Y-Axis (Vertical)
+The Y-axis shows the sentiment scores, which range from 0 to 1. These scores indicate the intensity of the sentiment detected in each document:
+- *0*: Completely negative sentiment.
+- *1*: Completely positive sentiment.
+
+## Order of the Documents
+The graph is ordered from lowest to highest, making it easy to identify the documents with the most negative and most positive sentiments.
+
+## Analysis of the Results
+- *Documents with Negative Sentiment*:
+  - "Luismi1.md" has the lowest score with approximately 0.045, indicating a negative sentiment.
+  - "Daniel1.md" and "Daniel2.md" also show relatively low scores, suggesting a negative tone in those documents.
+
+- *Documents with Neutral Sentiment*:
+  - "Daniel_1.md" and "Arturo_2.md" have scores around 0.125 and 0.172, respectively, suggesting a more neutral sentiment.
+
+- *Documents with Positive Sentiment*:
+  - "Joaquin1.md" has the highest score with approximately 0.346, indicating a positive sentiment.
+  - "Luismi3.md" and "Luismi2.md" also have relatively high scores, suggesting a positive tone in those documents.
+
+#### Conclusion
+This graph is useful for visualizing how sentiment varies between different documents. By ordering the documents from lowest to highest sentiment, it is easy to quickly identify which have the most negative and most positive tones, facilitating comparative analysis of the sentiments expressed in each document.
