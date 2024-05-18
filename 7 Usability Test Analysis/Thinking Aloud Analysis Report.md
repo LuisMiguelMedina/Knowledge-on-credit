@@ -71,6 +71,8 @@ In text:
 # Explanation of the Sentiment Analysis Graph
 
 ## Introduction
+
+![Sentiment Analysis Graph](media/sentiment_analysis_Graph.png)
 This bar graph shows the results of a sentiment analysis conducted on various documents. Sentiment analysis evaluates text content to determine the expressed attitude, which can be positive, negative, or neutral. The values in the graph represent sentiment scores, where a higher value indicates a more positive attitude and a lower value suggests a more negative attitude.
 
 ## X-Axis (Horizontal)
