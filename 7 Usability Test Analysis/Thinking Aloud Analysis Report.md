@@ -59,11 +59,11 @@ The outcome of the sentiment analysis is the following:
 
 In text:
 
-Sentiment value for Arturo_1.md: 0.19642857142857142
-Sentiment value for Arturo_2.md: 0.17222222222222222
-Sentiment value for Daniel2.md: 0.08333333333333333
-Sentiment value for Daniel_1.md: 0.125
-Sentiment value for Joaquin1.md: 0.34615384615384615
-Sentiment value for Luismi1.md: 0.045000000000000005
-Sentiment value for Luismi2.md: 0.24749999999999991
-Sentiment value for Luismi3.md: 0.30714285714285716
+- Sentiment value for Arturo_1.md: 0.19642857142857142
+- Sentiment value for Arturo_2.md: 0.17222222222222222
+- Sentiment value for Daniel2.md: 0.08333333333333333
+- Sentiment value for Daniel_1.md: 0.125
+- Sentiment value for Joaquin1.md: 0.34615384615384615
+- Sentiment value for Luismi1.md: 0.045000000000000005
+- Sentiment value for Luismi2.md: 0.24749999999999991
+- Sentiment value for Luismi3.md: 0.30714285714285716
