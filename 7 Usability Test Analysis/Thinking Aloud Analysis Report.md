@@ -73,30 +73,38 @@ In text:
 ## Introduction
 
 ![Sentiment Analysis Graph](media/sentiment_analysis_Graph.png)
-This bar graph shows the results of a sentiment analysis conducted on various documents. Sentiment analysis evaluates text content to determine the expressed attitude, which can be positive, negative, or neutral. The values in the graph represent sentiment scores, where a higher value indicates a more positive attitude and a lower value suggests a more negative attitude.
+
+## Introduction
+This bar graph presents the results of a sentiment analysis conducted on various documents. Sentiment analysis evaluates text content to determine the expressed attitude, which can be positive, negative, or neutral. In this case, all analyzed documents contain positive sentiments.
 
 ## X-Axis (Horizontal)
 The X-axis of the graph lists the analyzed documents. Each document has a unique name, for example, "Arturo_1.md", "Arturo_2.md", etc. These names individually identify each document in the dataset.
 
 ## Y-Axis (Vertical)
-The Y-axis shows the sentiment scores, which range from 0 to 1. These scores indicate the intensity of the sentiment detected in each document:
-- *0*: Completely negative sentiment.
-- *1*: Completely positive sentiment.
+The Y-axis shows the sentiment scores, which range from -1 to 1. These scores indicate the intensity of the sentiment detected in each document:
+
+- -1: Completely negative sentiment (not present in this analysis).
+- 0: Neutral sentiment.
+- 1: Completely positive sentiment.
 
 ## Order of the Documents
-The graph is ordered from lowest to highest, making it easy to identify the documents with the most negative and most positive sentiments.
+The graph is ordered from lowest to highest, making it easy to identify the documents with the least positive and the most positive sentiments.
 
 ## Analysis of the Results
-- *Documents with Negative Sentiment*:
-  - "Luismi1.md" has the lowest score with approximately 0.045, indicating a negative sentiment.
-  - "Daniel1.md" and "Daniel2.md" also show relatively low scores, suggesting a negative tone in those documents.
 
-- *Documents with Neutral Sentiment*:
-  - "Daniel_1.md" and "Arturo_2.md" have scores around 0.125 and 0.172, respectively, suggesting a more neutral sentiment.
+**Documents with Less Positive Sentiment:**
 
-- *Documents with Positive Sentiment*:
-  - "Joaquin1.md" has the highest score with approximately 0.346, indicating a positive sentiment.
-  - "Luismi3.md" and "Luismi2.md" also have relatively high scores, suggesting a positive tone in those documents.
+- "Luismi1.md" has the lowest score with approximately 0.045, indicating a slightly positive sentiment.
+- "Daniel1.md" and "Daniel2.md" also show relatively low scores (0.083 and 0.125), suggesting a positive but less intense tone in those documents.
 
-#### Conclusion
-This graph is useful for visualizing how sentiment varies between different documents. By ordering the documents from lowest to highest sentiment, it is easy to quickly identify which have the most negative and most positive tones, facilitating comparative analysis of the sentiments expressed in each document.
+**Documents with Moderately Positive Sentiment:**
+
+- "Daniel_1.md" and "Arturo_2.md" have scores around 0.125 and 0.172, respectively, suggesting a moderately positive sentiment.
+
+**Documents with Very Positive Sentiment:**
+
+- "Joaquin1.md" has the highest score with approximately 0.346, indicating a highly positive sentiment.
+- "Luismi3.md" and "Luismi2.md" also have relatively high scores (0.307 and 0.247), suggesting a very positive tone in those documents.
+
+## Conclusion
+This graph is useful for visualizing how positive sentiment varies between different documents. By ordering the documents from least to most positive sentiment, it is easy to quickly identify which have the least positive and most positive tones, facilitating comparative analysis of the sentiments expressed in each document.
