@@ -26,7 +26,7 @@
 If the test user accepts the recording: Muchas gracias, ahora empezaremos la grabación.
 If the test user declines: Muchas gracias por su participación, puede retirarse. No olvide su cremino a la salida.
 
-<< Start the recording >>
+Start the recording 
 
 - Explain the instructions to the test user: A continuación te presentaremos un prototipo interactivo de la aplicación en dónde podrás probar las funcionalidades esenciales del producto. A medida que vayas interactuando con el prototipo deberás decir en voz alta todo lo que opines o pienses sobre la aplicación, con especial énfasis en las cosas que te llaman la atención y el porqué te llaman la atención. También te iremos haciendo preguntas las cuales tendrás que responder. Siéntete libre de tomarte el tiempo que necesites para responder todas las preguntas de manera adecuada.
 - Estimated time: Se estima que la duración de la prueba aproximadamente será de una hora.
@@ -34,9 +34,9 @@ If the test user declines: Muchas gracias por su participación, puede retirarse
 
 # 2. During the test
 
-<<Put on the computer the aforementioned prototype>>
+Put on the computer the aforementioned prototype
 
-<<NOTA: Dada la naturaleza del protocolo, es posible que el entrevistado responda los puntos de la checklist en desorden>>
+Note: Given the nature of the protocol, it is possible for the user to answer the checklist points without order 
 
 ## 2.1 – 2.1 Lesson Selection
 
@@ -129,13 +129,13 @@ If the test user declines: Muchas gracias por su participación, puede retirarse
 2. I1: Coloca la opción “A”
     - Q2.1: ¿Cómo sabías que tu opción había sido seleccionada?
 
-<<REGRESA A PREGUNTA MOVIENDOLE A LAS FLECHITAS DEL FIGMA>>
+GO BACK TO THE QUESTION
+
 3. I2: Presiona la opción “B”
 
 - Q3.1: ¿Qué puedes hacer en esta vista?
 - Q3.2: ¿Cómo sabes que puedes hacer eso?
 
-<< no preguntamos de nuevo sobre el botón de “Aceptar” porque ya sabemos porqué sí funciona o porque no>>
 
 **Checklist:**
 
@@ -174,13 +174,13 @@ If the test user declines: Muchas gracias por su participación, puede retirarse
 2. I1: Coloca la opción “A”
     - Q2.1: ¿Cómo sabías que tu opción había sido seleccionada?
 
-<<REGRESA A PREGUNTA MOVIENDOLE A LAS FLECHITAS DEL FIGMA>>
+GO BACK TO THE QUESTION
+
 3. I2: Presiona la opción “B”
 
 - Q3.1: ¿Qué puedes hacer en esta vista?
 - Q3.2: ¿Cómo sabes que puedes hacer eso?
 
-<< no preguntamos de nuevo sobre el botón de “Aceptar” porque ya sabemos porqué sí funciona o porque no>>
 
 **Checklist:**
 
@@ -210,7 +210,7 @@ If the test user declines: Muchas gracias por su participación, puede retirarse
 
 **Scenario:**
 
-1. I1: <<Terminar de contestar la pregunta>>
+1. I1: (Terminar de contestar la pregunta)
     - Q1: ¿Cómo supiste que la prueba había terminado?
     - Q2: ¿Qué puedes hacer en esta vista?
     - Q3: ¿Qué crees que pasará cuando presiones el botón?
