@@ -1,8 +1,6 @@
 import os
 from textblob import TextBlob
 
-
-
 def get_text_sentiment(text):
     sentiment = text.sentiment.polarity
     return sentiment
@@ -14,7 +12,6 @@ def get_file_content(filepath):
     with open(filepath, 'r', encoding='utf-8') as file:
         file_content = TextBlob(file.read())
         return file_content
-
 
 transcripts_dir = 'transcripts'
 folder = os.listdir(transcripts_dir)
