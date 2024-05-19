@@ -1,4 +1,3 @@
-# Guion para la prueba de usabilidad
 
 # 1. Before the test
 
