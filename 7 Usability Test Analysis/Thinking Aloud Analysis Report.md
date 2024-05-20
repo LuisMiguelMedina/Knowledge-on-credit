@@ -91,8 +91,9 @@ The results are presented as pairs: file name + sentiment value.
 
 The sentiment being a number within [-1, 1]. -1 being negative words and 1 being positive ones and 0 being neutral. The closer the sentiment value to 1 the more positive the words on the transcript are. 
 
-# Results
+## 5. Results
 
+### 5.1 Preliminary results
 The outcome of the sentiment analysis is the following: 
 
 ![Sentiment Analysis Script Outcome](media/sentiment_analysis_script_outcome.png)
@@ -148,3 +149,38 @@ The graph is ordered from lowest to highest, making it easy to identify the docu
 
 ## Conclusion
 This graph is useful for visualizing how positive sentiment varies between different documents. By ordering the documents from least to most positive sentiment, it is easy to quickly identify which have the least positive and most positive tones, facilitating comparative analysis of the sentiments expressed in each document.
+
+### 5.2 Are They Significant?
+
+#### 5.2.1 Processes from Other Research:
+
+##### Ontology-Guided Feature-Based Opinion Mining
+URL: https://rua.ua.es/dspace/handle/10045/16947
+Presents a model for sentiment analysis based on ontologies, categorizing opinions, training models, and defining components.
+
+##### Opinion Observer: Analyzing and Comparing Opinions on the Web
+URL: https://www.cs.uic.edu/~liub/publications/www05-p536.pdf
+Proposes a model to analyze and compare opinions on the web, including categorization and model training.
+
+##### The Use of Big Data and Its Impact on the Quality of Academic Services at the Technical University of Ambato
+URL: https://es.slideshare.net/slideshow/tesis-t1265mbdpdf/265569744
+Application of sentiment analysis to evaluate comments on academic services.
+
+##### Sentiment Analysis: Android Applications
+URL: https://www.cs.rit.edu/usr/local/pub/GraduateProjects/2165/fjk9481/Report.pdf
+Application of sentiment analysis to evaluate comments on Android applications.
+
+Data Collection: Opinions or reviews.
+Information Processing: Correction of spelling errors, removal of irrelevant words, filtering of opinions, etc.
+Keyword Identification: Assigning weight to important words using ontologies or databases.
+Model Training: Using dictionaries and databases to train models. Alternatively, using pre-trained models like TextBlob.
+Processing with Machine Learning or NLP Tools: To properly obtain the sentiment analysis.
+Another point to note is that the corpora in the documents are large. In document 4, there are 3000 entries per evaluated application and other items. In document 3, they handle between 500 and 22,000 entries.
+In summary, the four documents detail both proposals for sentiment analysis models and practical applications, emphasizing the importance of data processing and the use of ontologies or pre-trained models to obtain accurate results.
+
+#### 5.2.2 Comparison
+The way we performed the sentiment analysis of the transcripts in the usability tests is not even similar to what is done in the aforementioned processes, as we did not go through data cleaning, formatting, or keyword definition. We simply input the transcripts into the Python code to get results.
+
+#### 5.2.3 Conclusion
+Having done this, we realize that the sentiment analysis process was not correctly applied, starting with the sample size (8 people), which is not a representative sample. Furthermore, although we used a pre-trained model (TextBlob) for sentiment analysis, when transcribing via the API, the transcriptions were not corrected and were directly input into the Python code for analysis, which, without considering other variables such as language, sentence cleaning, keyword separation, etc., greatly biases the final results. Therefore, we conclude that the results obtained from our samples, using sentiment analysis to process them, are not significant to make any assertions or inferences. However, this does not mean that our usability tests are incorrect, but rather that the method of analyzing the results is not suitable for use in our context.
+
