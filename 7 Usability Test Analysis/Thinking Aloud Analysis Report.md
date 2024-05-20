@@ -1,16 +1,56 @@
-# Thinking Aloud Analysis Report
+# Analysis of project results
 
-# Sentiment Analysis
+## 1. Detail of the usability tests
 
-To analyze the data from the Thinking Aloud usability testing, we decided to use sentiment analysis because, given the amount of information gathered in the Thinking Aloud interviews, we need a way to quickly get an idea of the interviewee experience during the test and sentiment analysis is a tool that manages to process big amounts of data in a short period of time. 
+See folder "6 Usability Test".
 
-Sentiment analysis is a way of analyzing data based on the positiveness or negativeness value of the words used during the interview. This allows us to find whether the interviewed users had positive or negative words when describing their ideas on the prototype. More negative words would indicate a poorer experience, whereas positive ones would indicate a more pleasant one. 
+## 2. Materials used
 
-# Python Code
+To carry out the usability tests we used a series of tools to support us in their design, implementation and subsequent analysis:
 
-To conduct the sentiment analysis we used the TextBlob library in Python, which allows us to analyze text content in a simple way. 
+- **Microsoft Teams** and **Discord**: These were used as a means of communication in some tests that could not be face-to-face.
+- OBS**: This tool was used to record the videos of the usability tests.
+- Online video format conversion software**: This was used to transform the recorded videos into a specific format for transcription.
+- Transcription API**: The WhisperAI API was used to transcribe the usability test audios for later analysis.
+- **TextBlob library**: Python programming language was used along with the Textblob library for sentimental analysis of the transcripts obtained.
 
-The code used to perform the sentiment analysis on each transcript file is the following: 
+## 3. Evidence
+
+Attached are the videos of the implementation of the usability tests as well as the results obtained:
+
+[Link to Google Drive](https://drive.google.com/drive/folders/1prmluYkyezwiZrWLAWwqYnLQjMR1n04o?usp=sharing)
+
+## 4. Data analysis
+
+### 4.1 Analysis of the test using the checklists 
+
+According to the prototype, a checklist survey was conducted to help us determine if the user would have any difficulties when testing the prototype.
+
+- In the first task which is to enter the lesson we have 10 checklist items of which all were answered as expected.
+- In the second task of entering a lesson, we have 8 checklist items of which all were answered as expected and we managed to enter the lesson without complications, besides noticing that it was not possible to access a locked lesson.
+- In the third task, which is the presentation of the selected lesson, we have 10 checklist items, all of which were answered as expected and there were no problems reading the content of the lessons.
+- In the fourth task, which is to answer the questions, we have 15 checklist items that are divided into two parts, the first part is 6 items and the second part is 9 items; in the first part, if you answer A, it will tell you that you answered correctly; if you answer B, it will send you part two of the checklist items that will indicate that your answer was correct; of these 15 items, all of them were answered as expected.
+- In the fifth task, which has 4 options, we have 4 checklist items which were answered correctly without any complications.
+- In the sixth task, which is to relate columns, there are 14 checklist items, all of which were answered as expected and there were no complications when relating the information in the columns.
+- In the seventh task, which is to drag the options, there are 5 checklist items which were all answered as expected and no participant had problems dragging the options to the correct blank space.
+- In the eighth task which is after having finished the lesson we have 10 items of which all of them were answered well as they did not make mistakes in order to finish the lesson and choose the next lesson.
+ 
+### 4.2 Sentiment Analysis
+
+To analyze the data from the Thinking Aloud usability testing we decided to use sentiment analysis because given the amount of information gathered in the Thinking Aloud interviews we need a way to quickly get an idea of the interviewee experience during the test and sentiment analysis is a tool that manages to process big amounts of data in a short period of time.
+
+Sentiment analysis is a way of analyzing data based on the positiveness or negativeness value of the words used during the interview. This allows us to find whether the interviewed users had positive or negative words when describing their ideas on the prototype. More negative words would indicate a poorer experience whereas positive ones would indicate a more pleasant one.
+
+#### 4.2.1 Transcripts 
+
+The transcriptions were possible thanks to the WhisperAI tool which was used as a separate module from the main project. The project can be found at the following link:
+
+[GitHub Link](https://github.com/LuisMiguelMedina/AudioToText-WhisperAPI)
+
+#### 4.2.2 Python Code
+
+To conduct the sentiment analysis we used the TextBlob library in Python which allows us to analyze text content in a simple way.
+The code used to perform the sentiment analysis on each transcript file can be found in the file "Sentiment Analysis Script.py" in the present folder.
 
 ```python
 import os
