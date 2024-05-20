@@ -13,3 +13,7 @@ Our proyect it's all about a common issue we've noticed among young people - man
 ## Problem Statement
 
 We found out that a lot of young folks struggle with credit cards because there aren't good learning tools out there for them. Most options are either too dull, too generic, or just hard to stick with. Plus, reliable info is hard to come by.
+
+# Personal Participations for the 3rd Delivery
+[![Personal_participations](/Assets/personal_participation_3rd_delivery.png)]
+
