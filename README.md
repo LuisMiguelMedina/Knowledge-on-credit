@@ -1,6 +1,6 @@
 # 3rd Delivery Video
 
-[![Nombre o descripción del video](/Assets/ThirdDelivery.png)](https://alumnosuady-my.sharepoint.com/:v:/g/personal/a18003410_alumnos_uady_mx/EeMvMMe69hBMiNLwuw5feMYBCFFDMUj4oKaCZaD6WBdXKA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XFWTZh)
+[![Nombre o descripción del video](/Assets/ThirdDelivery.png)](https://drive.google.com/file/d/18ETFnoBCuniNmme2JFy9cbkzD8qx944z/view?usp=drive_link)
 
 ## Prototype
 
