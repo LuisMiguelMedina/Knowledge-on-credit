@@ -1,1 +1,6 @@
 .obsidian
+venv
+Lib
+Scripts
+share
+pyvenv.cfg

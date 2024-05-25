@@ -122,7 +122,7 @@ def main():
     analyze their sentiments, print the results, and visualize the counts.
     """
     # Source CSV path
-    CSV_FILE_PATH = 'Tweets.csv'
+    CSV_FILE_PATH = 'resources/processed_dataset.csv'
     # Name of the document to store the polarity in the analysis 
     OUTPUT_CSV_FILE_PATH = 'sentiments_with_analysis.csv'
 
