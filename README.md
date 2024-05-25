@@ -16,7 +16,7 @@
     
     - Posibles errores:
         
-        ![error1.jpeg](Setup%20103f1794d57c4a4b91c5c68e9e20108e/error1.jpeg)
+        ![error1.jpeg](assets/error1.jpeg)
         
         Puedes intentar con: 
         
