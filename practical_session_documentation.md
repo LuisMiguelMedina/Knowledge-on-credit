@@ -358,4 +358,32 @@ The following chart shows the results of the analysis: 
 
 ![](https://lh7-us.googleusercontent.com/Roghw3txgqfJnfQ-eDrPpD8N4ef2-Gq7_YZRI1hmzBfZPtbe5sY0bd2XLIP0utaaixOlAXpntEVnq0H3LZD1KGuyeyLHf0fMiTtRB2967mc4GK76maKJz0VL2TB-0paNZjryG4keW7tj_oP8A5RiyCA)
 
+
+![Bar chart](file-OXNNNUxVHLirSDDZwaiczjQUf)
+
+The bar chart shows the distribution of tweets according to their sentiment classification (positive, neutral and negative).
+
+## Axes of the Graph.
+- **Y-axis (vertical):** Represents the number of tweets (frequency) for each sentiment category.
+- **X-axis (horizontal):** Represents the sentiment categories (positive, neutral, negative).
+
+## Key Observations
+
+1. **Positive Sentiments:**.
+   - **Number of tweets:** Approximately 10,000 tweets.
+   - **Interpretation:** A large number of tweets have positive sentiment, indicating that users tend to express positive emotions frequently in the analyzed tweets.
+
+2. **Neutral Sentiments:**
+   - **Number of tweets:** Approximately 12,000 tweets.
+   - **Interpretation:** Most tweets are neutral, suggesting that many users post tweets that do not contain a strong emotional charge (neither positive nor negative).
+
+3. **Negative Sentiments:**
+   - **Number of tweets:** Approximately 5,000 tweets.
+   - **Interpretation:** There are fewer negative tweets compared to positive and neutral tweets, but they still make up a significant portion of the data. This may indicate that users are also sharing negative experiences, albeit in smaller numbers.
+
+## Conclusions.
+- **Predominance of Neutral Sentiments:** Most tweets do not express extreme emotions, which could be common in informational or conversational content without clear emotional tone.
+- High Proportion of Positive Sentiments:** The high number of positive tweets suggests a general tendency towards the expression of positive emotions in the tweets analyzed.
+- Lower Proportion of Negative Sentiments:** Although there are fewer negative tweets, their presence is still notable and could be relevant for the analysis of specific topics where negative emotions are more common.
+
 # 5 Conclusion
