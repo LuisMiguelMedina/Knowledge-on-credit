@@ -10,6 +10,16 @@ This process will help research on prototypes and facilitate the agile processin
 
 ## 1.2 Abstract
 
+Here we present the outline for a practical class on sentiment analysis, which is a robust approach for automatic evaluation within the domain of Human-Computer Interaction (HCI). The document presents an introduction to the definition of sentiment analysis in terms of how it establishes the emotional tonality of texts and classifies documents into a positive, negative, or neutral category. Also describes the Results and their interpretation. In closing, it discusses the usefulness of this methodology when facing vast amounts of qualitative data derived from usability testing, especially in tools that are meant to be integrated into a truly LeanUX scenario. Sentiment Analysis allows quick and effective evaluation of user feedback for continuous improvement of prototypes and products. This practice demonstrates the integration of sentiment analysis into the HCI process to ease data interpretation and back up decision-making focused on user experience.
+
+### Key Points
+#### Definition of Sentiment Analysis Session
+
+Definition of Sentiment Analysis Explanation of how the emotional tone of texts is determined. Requirements and Tools: Description of data prerequisites and tools used (VSCode, GitBash, Python, TextBlob, and Seaborn, VirtualEnv). Setup and Code Process: Step-by-step instructions for tool installation, environment setup, and code development to accomplish sentiment analysis.
+
+#### Results Analysis and Conclusion
+Analysis Results interpretation of processed data and generated graphs to visualize the sentiment distribution. Applications in HCI: Elaborate on the relevance of the sentiment analysis in the usability evaluation test and how it fits within the Agile methodology, particularly in LeanUX
+
 ## 1.3 Overview 
 
 The document herein is structured in the following sections.
@@ -40,17 +50,19 @@ The section 5 contains brief conclusions that can be drawn from the usage of thi
 
 # 3 Glossary
 
-**Data Analysis**: 
 
-**Sentiment Analysis**: 
 
-**Cluster**: 
+**Data Analysis**: Process of examining data to extract useful information.
+
+**Sentiment Analysis**: Technique to determine the emotional tone of text, classifying it as positive, negative, or neutral.
+
+**Cluster**: Group or category in sentiment analysis (e.g., positive, neutral, negative).
 
 **Corpora**: Plural of corpus.
 
-**Corpus**: ​a collection of written or spoken texts. 
+**Corpus**: Collection of texts used for analysis.
 
-**NLP**: Natural Language Processing. 
+**NLP (Natural Language Processing)**: Field focused on the interaction between computers and human language.
 
 # 4 Sesion 
 
