@@ -79,20 +79,7 @@ def analyze_sentiments(data):
         row['sentiment_class'] = sentiment_class
     return data
 
-def present_formatted_sentiments(data):
-    """
-    Print the selected text, analyzed polarity, and sentiment class in a formatted manner.
-
-    Args:
-        data (list): A list of dictionaries containing text data and sentiments.
-    """
-    for row in data:
-        print(f"Selected Text: {row['selected_text']}")
-        print(f"Analyzed Polarity: {row['analyzed_polarity']}")
-        print(f"Sentiment Class: {row['sentiment_class']}")
-        print('--')
-
-def visualize_sentiment_counts(data):
+def visualize_sentiment_counts(path, data):
     """
     Visualize and save the sentiment class counts as a bar plot.
 
@@ -111,7 +98,16 @@ def visualize_sentiment_counts(data):
     plt.title('Sentiment Analysis Counts')
 
     # Save the plot as a PNG file
-    plt.savefig('sentiment_counts.png')
+    plt.savefig(path)
+    
+def save_sentiments(OUTPUT_CSV_FILE_PATH, analyzed_data):
+    with open(OUTPUT_CSV_FILE_PATH, 'w', newline='', encoding='ISO-8859-1') as file:
+        fieldnames = analyzed_data[0].keys()
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(analyzed_data)
+
+
 
 # ----------------------------------------------------------------------- #
 # ------------------------ Main Script Execution ------------------------ #
@@ -122,37 +118,24 @@ def main():
     analyze their sentiments, print the results, and visualize the counts.
     """
     # Source CSV path
-    CSV_FILE_PATH = 'resources/processed_dataset.csv'
+    IN_TWEETS_PATH = 'resources/processed_dataset.csv'
     # Name of the document to store the polarity in the analysis 
-    OUTPUT_CSV_FILE_PATH = 'sentiments_with_analysis.csv'
-
-    # Read the CSV file content with fallback encodings
-    try:
-        data = read_csv(CSV_FILE_PATH, encoding='utf-8')
-    except UnicodeDecodeError:
-        try:
-            data = read_csv(CSV_FILE_PATH, encoding='ISO-8859-1')
-        except UnicodeDecodeError:
-            print("Error: Unable to read the CSV file with the provided encodings.")
-            return
+    OUT_SENTIMENT_PATH = 'results/sentiments_with_analysis.csv'
+    # Name of the document to store the visual
+    OUT_PLOT_PATH = 'results/sentiment_counts.png'
     
+    
+    # Read the CSV file content 
+    tweets = read_csv(IN_TWEETS_PATH, encoding='ISO-8859-1')
+
     # Analyze the sentiment for each selected text
-    analyzed_data = analyze_sentiments(data)
+    sentiments_found = analyze_sentiments(tweets)
 
     # Write the analyzed data to a new CSV file
-    with open(OUTPUT_CSV_FILE_PATH, 'w', newline='', encoding='utf-8') as file:
-        fieldnames = analyzed_data[0].keys()
-        writer = csv.DictWriter(file, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(analyzed_data)
-
-    # Present the formatted sentiment results
-    present_formatted_sentiments(analyzed_data)
+    save_sentiments(OUT_SENTIMENT_PATH, sentiments_found)
 
     # Visualize and save the sentiment counts
-    visualize_sentiment_counts(analyzed_data)
-
-
+    visualize_sentiment_counts(OUT_PLOT_PATH, sentiments_found)
 
 if __name__ == '__main__':
     main()
