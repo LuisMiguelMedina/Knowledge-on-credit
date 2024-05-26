@@ -104,7 +104,19 @@ The results are a computation derived from the counting of words within the text
 ## 4.2 Requirements and tools 
 
 ### 4.2.1 Data preconditions
+We have to take in consideration that we must have a large amount of data for the sentimental analysis to give us meaningful results, in some researches found, the minimum amount of elements used for sentimental analysis is documented, ranging from 500 to 30,000 elements, however, the more information you have to analyze the better, .Once we have collected the data we want to analyze,that in this case are our usability tests results, we have to do certain actions to be able to perform the sentimental analysis properly so that we get correct and reliable results.
 
+#### Keyword definition: 
+The initial step of sentimental analysis is to select and extract the characteristics of the text, that includes identifying the presence of words and their frequency. This is also called words n-grams along with their frequency. This helps to understand which words are important by assigning binary weights.
+
+#### Filtering the data: 
+The collected data should be filtered to not include unrelated data such as emojis or out-of-context comments that do not provide useful feedback for the product.
+
+#### Data correction: 
+The data to be entered must be corrected either by filling in missing, unexpected, or irrelevant values; Always taking care not to change the wording of the text so as not to affect the result
+
+#### Data format: 
+The data should be left in a format suitable for the model or analysis tools we are using.
 
 ### 4.2.2 Tools and resources 
 
