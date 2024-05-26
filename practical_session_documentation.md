@@ -10,15 +10,8 @@ This process will help research on prototypes and facilitate the agile processin
 
 ## 1.2 Abstract
 
-Here we present the outline for a practical class on sentiment analysis, which is a robust approach for automatic evaluation within the domain of Human-Computer Interaction (HCI). The document presents an introduction to the definition of sentiment analysis in terms of how it establishes the emotional tonality of texts and classifies documents into a positive, negative, or neutral category. Also describes the Results and their interpretation. In closing, it discusses the usefulness of this methodology when facing vast amounts of qualitative data derived from usability testing, especially in tools that are meant to be integrated into a truly LeanUX scenario. Sentiment Analysis allows quick and effective evaluation of user feedback for continuous improvement of prototypes and products. This practice demonstrates the integration of sentiment analysis into the HCI process to ease data interpretation and back up decision-making focused on user experience.
+The problem of qualitative data being difficult to process, specially in an HCI usability testing, requires the usage of tools that help to determine whether a product satisfies the user needs or not. In the document herein we present an approach that could be taken to facilitate this process. We present a practical outline on how to perform sentiment analysis, explaining the tools and basic theory required to perform and interpret the results of popular sentiment analysis tools. In our case the sentiment analysis is based on the content of almost 28,000 tweets. We managed to process all that qualitative data in a very short period of time and found that most tweets people published were either positive or neutral. Sentiment Analysis allows us to process large amounts of data with minimum effort and time. This allows us to draw conclusions from large amounts of qualitative data from user feedback and usability testing, which is valuable in LeanUX scenarios because it allows continuous evaluation and improvement of prototypes. This practice demonstrates that the integration of sentiment analysis into an agile HCI process can ease data interpretation and back up decision-making focused on user feedback.
 
-### Key Points
-#### Definition of Sentiment Analysis Session
-
-Definition of Sentiment Analysis Explanation of how the emotional tone of texts is determined. Requirements and Tools: Description of data prerequisites and tools used (VSCode, GitBash, Python, TextBlob, and Seaborn, VirtualEnv). Setup and Code Process: Step-by-step instructions for tool installation, environment setup, and code development to accomplish sentiment analysis.
-
-#### Results Analysis and Conclusion
-Analysis Results interpretation of processed data and generated graphs to visualize the sentiment distribution. Applications in HCI: Elaborate on the relevance of the sentiment analysis in the usability evaluation test and how it fits within the Agile methodology, particularly in LeanUX
 
 ## 1.3 Overview 
 
