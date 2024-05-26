@@ -50,48 +50,19 @@ The section 5 contains brief conclusions that can be drawn from the usage of thi
 
 # 3 Glossary
 
-
-
 **Data Analysis**: Process of examining data to extract useful information.
 
-![Bar chart](file-OXNNNUxVHLirSDDZwaiczjQUf)
+**Sentiment Analysis**: Process of analyzing the words in a text to find the emotional tone of the overall text.
 
-The bar chart shows the distribution of tweets according to their sentiment classification (positive, neutral and negative).
+**Cluster**: A group of things of the same type that grow or appear close together. In sentiment analysis, a cluster is a range of values in which the polarity of a text can fit in. It is a way to categorize polarity based on its value from negative (polarity <  0), neutral (polarity = 0) and positive (polarity > 0).
 
-## Axes of the Graph.
-- **Y-axis (vertical):** Represents the number of tweets (frequency) for each sentiment category.
-- **X-axis (horizontal):** Represents the sentiment categories (positive, neutral, negative).
-
-## Key Observations
-
-1. **Positive Sentiments:**.
-   - **Number of tweets:** Approximately 10,000 tweets.
-   - **Interpretation:** A large number of tweets have positive sentiment, indicating that users tend to express positive emotions frequently in the analyzed tweets.
-
-2. **Neutral Sentiments:**
-   - **Number of tweets:** Approximately 12,000 tweets.
-   - **Interpretation:** Most tweets are neutral, suggesting that many users post tweets that do not contain a strong emotional charge (neither positive nor negative).
-
-3. **Negative Sentiments:**
-   - **Number of tweets:** Approximately 5,000 tweets.
-   - **Interpretation:** There are fewer negative tweets compared to positive and neutral tweets, but they still make up a significant portion of the data. This may indicate that users are also sharing negative experiences, albeit in smaller numbers.
-
-## Conclusions.
-- **Predominance of Neutral Sentiments:** Most tweets do not express extreme emotions, which could be common in informational or conversational content without clear emotional tone.
-- High Proportion of Positive Sentiments:** The high number of positive tweets suggests a general tendency towards the expression of positive emotions in the tweets analyzed.
-- Lower Proportion of Negative Sentiments:** Although there are fewer negative tweets, their presence is still notable and could be relevant for the analysis of specific topics where negative emotions are more common.
-
-Translated with DeepL.com (free version)
-
-**Sentiment Analysis**: Technique to determine the emotional tone of text, classifying it as positive, negative, or neutral.
-
-**Cluster**: Group or category in sentiment analysis (e.g., positive, neutral, negative).
+**Polarity**: Is a number that suggests the positiveness or negatives of a text. In TextBlob it is a floating point number in the range [-1, 1] in which -1 is the maximum negative value and 1 is maximum positive value.
 
 **Corpora**: Plural of corpus.
 
-**Corpus**: Collection of texts used for analysis.
+**Corpus**: A collection of written or spoken texts.
 
-**NLP (Natural Language Processing)**: Field focused on the interaction between computers and human language.
+**NLP**: Natural Language Processing.
 
 # 4 Sesion 
 
@@ -122,41 +93,41 @@ The data should be left in a format suitable for the model or analysis tools we 
 
 To do the sentiment analysis, the following tools will be used:
 
-- VSCode: (Optional) Popular text editor you already have. The reader may choose another text editor. 
+- **VSCode**: (Optional) Popular text editor you already have. The reader may choose another text editor. 
     
-- GitBash: (Optional). Application that emulates the bash command line. The reader may choose another command line tool, though the instructions herein are for bash. 
+- **GitBash**: (Optional). Application that emulates the bash command line. The reader may choose another command line tool, though the instructions herein are for bash. 
     
-- Python: Programming language with a lot of libraries specialized in sentiment analysis and other data analysis tools like graph visualizations. 
+- **Python**: Programming language with a lot of libraries specialized in sentiment analysis and other data analysis tools like graph visualizations. 
     
-- TextBlob: Text processing library for the Python programming language. It allows for quick data cleaning and analysis without requiring a lot of theoretical knowledge. More information on textblob can be found in [1].
+- **TextBlob**: Text processing library for the Python programming language. It allows for quick data cleaning and analysis without requiring a lot of theoretical knowledge. More information on textblob can be found in [1].
     
-- Seaborn: Graph visualization library for the Python programming language. It allows for easy graph building, helpful when interpreting the results and identification of patterns in the data. 
+- **Seaborn**: Graph visualization library for the Python programming language. It allows for easy graph building, helpful when interpreting the results and identification of patterns in the data. 
     
-- Virtualenv: (Optional) Tool to generate virtual environments in Python. The usage of a virtual environment isn’t mandatory to do the analysis, but it is recommended as it will isolate the project and prevent conflicts among different versions one may have of the same library installed in its computer. A video showing the process of starting a virtual environment can be found on the following video: [3].
+- **Virtualenv**: (Optional) Tool to generate virtual environments in Python. The usage of a virtual environment isn’t mandatory to do the analysis, but it is recommended as it will isolate the project and prevent conflicts among different versions one may have of the same library installed in its computer. A video showing the process of starting a virtual environment can be found on the following video: [3].
     
 
 The data will be obtained from the “Twitter Tweets Sentiment Dataset” [2], which contains 27481 tweets for the analysis. The originals dataset is made up of the following fields:
 
 ![](https://lh7-us.googleusercontent.com/jhGdljeiSn1TmcwBeI7k06Hi4tQqmcf5SFEnQGW64I6uRGMlwtwyWN8hGqzpNg_tcZmsc5zKcGL8IsTUpZAzoaaZJXqmBx39GDNX9BqqZE9RMwqJJDZH1IlkIY8wPcmH2enJaSgRGIBfrQYEtIe5z6M)
 
-Figure 1—Original dataset fields and example registers. 
+_Figure 1—Original dataset fields and example registers._
 
   
 
-- textID: A unique identifier for the record.
+- **textID**: A unique identifier for the record.
     
-- text: The text content of the tweet. 
+- **text**: The text content of the tweet. 
     
-- selected_text: a processed version of the original text. The content is processed so that words that don’t contain inherently associated emotions (e.g. linking words) are removed. Processing the data prior to the analysis will decrease the process time and increase the precision of the sentiment. For the analysis, this field will be used.
+- **selected_text**: a processed version of the original text. The content is processed so that words that don’t contain inherently associated emotions (e.g. linking words) are removed. Processing the data prior to the analysis will decrease the process time and increase the precision of the sentiment. For the analysis, this field will be used.
     
-- sentiment: a label that indicates which is the associated sentiment of the row as analyzed by the owner of the dataset. Because the objective of the session is to obtain by ourselves this classification, this field wont’ be used.
+- **sentiment**: a label that indicates which is the associated sentiment of the row as analyzed by the owner of the dataset. Because the objective of the session is to obtain by ourselves this classification, this field wont’ be used.
     
 
 The following is the dataset that will be used for the analysis:
 
 ![](https://lh7-us.googleusercontent.com/Wjl5THrLXAnIJ_rDE4_0mKAg18ua50jI8Zp4oKKLWTviVqh6fziDgwpzqf-BDD3belqUXLtPi6YMFIaGHaEEVNGd1Yr2WRMbSzryE5ahUhnsZ_flRhYRydjzgTwC0KlpQVMcMez2a7gajW9l0-5Liu0)
 
-Figure 2—Processed dataset that will be used for the analysis. Fields and example registers.
+_Figure 2—Processed dataset that will be used for the analysis. Fields and example registers._
 
 The only field from the original dataset that will be used is the selected_text field. 
 
@@ -170,15 +141,15 @@ The reader shall create a new directory to do the analysis. The reader should ha
 
 ![](https://lh7-us.googleusercontent.com/jdX_tcALVyAu7vMNSJftO-tNCk1fTrMEpNoDLMFVVH30XfBUpqIIk_4sG6KA-5bHSgd-XQGzYHxnhH5iOvEJpRwS_AzETYhsC5NzDzSQ7R-9MusYQYXt7Uw_KXM0Z_eCfHzwOukBta6_XALmC3ET-FQ)
 
-Figure 3—VSCode window with an empty folder open.
-
+_Figure 3—VSCode window with an empty folder open._
 ### 4.4.1 Setup 
 
-4.4.1.1 Install TextBlob. To install the TextBlob library, the following commands shall be ran in your open directory:
-
+**4.4.1.1 Install TextBlob**. To install the TextBlob library, the following commands shall be ran in your open directory:
+```
 pip install -U textblob 
 
 python -m textblob.download_corpora
+```
 
 The first command will install the library in your directory. The -U flag indicates that, if you happen to have installed the textblob library, it will update it instead of installing it. 
 
@@ -188,19 +159,19 @@ After running the first command, you should see the following output:
 
 ![](https://lh7-us.googleusercontent.com/IRIcI5XlXPxR8Tx51JDeoPmEUHRJPXbZc1jfAx9Hl35UtmWrvnod5ibQKOLAG2lcI6vWv3WOFBZqjtP6KWqVfgjNUXCBe8r3iWwJrv3nDTLuX_exCNp9Eu2cp18Iv4BPn-iSmcGGjnNdYe3jiUq1jPk)
 
-Figure 4—Terminal after running: pip install -U textblob
+_Figure 4—Terminal after running: pip install -U textblob_
 
 After running the second command, the following output should be seen:
 
 ![](https://lh7-us.googleusercontent.com/veBoSQHCTZTor0mX1hCwCNqzNZgKlEkNd6DTruKD-5p0lckAeKAH6VlckUzByT-DvwgDmTLPLZTsj_elxxNeogKyZbseV24osZh7groWXDcQk5Da7yAfitvKWyO6lpE2iKYpkSDZ1okkOs7iUHBrua0)
 
-Figure 5—Terminal after running: python -m textblob.download_corpora
-
+_Figure 5—Terminal after running: python -m textblob.download_corpora_
   
 
-4.4.1.2 Install Seaborn. To install the Seaborn library, the following command shall be ran in your open directory: 
-
+**4.4.1.2 Install Seaborn**. To install the Seaborn library, the following command shall be ran in your open directory: 
+```
 pip install seaborn 
+```
 
 The seaborn library will allow us to visualize the results of the analysis, making it easier for us to draw conclusions. This is helpful when plotting frequency charts for the emotions found in the dataset. 
 
@@ -208,17 +179,18 @@ After running the command, the following output shall be seen on the terminal:
 
 ![](https://lh7-us.googleusercontent.com/iH_4XMDsb2zCKE3PNxe2Jew4i1-za0lyrwSPaF35TQ1uxfmwODdtHV39zcs29KvC6NZbRklR2Zz4qtc8AcbuUeupUPvNEO_WosboR15oSGo1Iz4n04DvOsSZ2btpsDT6gX6Jh9vI_fWVARQM9Bl_KAo)
 
-Figure 6—Terminal after running: pip install seaborn
+_Figure 6—Terminal after running: pip install seaborn_
 
 ### 4.1.2 Code
 
 Note: The initial data was cloned from our GitHub repository. 
 
-4.1.2.1 Importing the libraries. Before starting to write the program, we need to import the libraries we installed. The following is the code that imports these libraries and other utilities we need to conduct the analysis properly: 
+**4.1.2.1 Importing the libraries**. Before starting to write the program, we need to import the libraries we installed. The following is the code that imports these libraries and other utilities we need to conduct the analysis properly: 
 
 ![](https://lh7-us.googleusercontent.com/fsow4wt8MRko_jDRzSIEWONqyQXIohTA2yn5uWkc4OUht0YnoQMW20JQ2t14QSw9Wya-2W15v3FfUki_ywvH7lsRvh-yQbw0I7mWu_BE_rXYhJMuacJ1q9FQ6noRiT0YiAxFtuR_dNMdKnvwtn9avhg)
 
-Figure 7—Code: Import necessary libraries.
+_Figure 7—Code: Import necessary libraries._
+
 
 We first import the library csv so that we can read the dataset in this format and to export our results also in this format. 
 
@@ -228,13 +200,13 @@ We import the seaborn library (as sns by convention) to generate the charts that
 
 At last, we import the library matplotlib (as mlp by convention) which is installed automatically when installing seaborn (as seaborn is built over matplotlib). We will use matplotlib to work with things such as the labels of a chart or saving the file. The main difference between seaborn and matplotlib (and the reason why we need both) is that seaborn focuses on making the chart visually appalling, while matplotlib focuses on the low-level details of a visualization. 
 
-4.1.2.2 Overall process. The sentiment analysis process can be broken down into the following steps: (1) getting the data, (2) analyzing the data and (3) presenting the results. 
+**4.1.2.2 Overall process**. The sentiment analysis process can be broken down into the following steps: (1) getting the data, (2) analyzing the data and (3) presenting the results. 
 
 This process lead us to the following main function: 
 
 ![](https://lh7-us.googleusercontent.com/tQC55wmh0_h021vP8_L_ggcrxzIN6GYyGhnEaxbfj8AgfMmYwHpaNbsV1gsARpNv5d2xm5RgVirvtQNZ7dl903_WEU34r_4hoc_REko90zg2-uX31qZNbCsrx90zlGCeKiV6_pAWcjO2mPiaDqcIURY)
 
-Figure 8—Code: Main function of the data analysis process. 
+_Figure 8—Code: Main function of the data analysis process._
 
 We start the code by defining the paths from which we’re gonna be obtaining the data for the analysis and where we're gonna store the results. In our case, we have defined a “resources” directory and a “results directory”. 
 
@@ -244,17 +216,17 @@ To access the main function we need to call it as follows: 
 
 ![](https://lh7-us.googleusercontent.com/KhUAfLVxkYn9E4jN2U_6fr3ahIYdDJZ3uLEqgrmi7NJ98QtSPenI6LdxqVUdLuubqUEM8qLkJdo0GEpLwBe5pveylZo8y9FL2nWdaRoPaFHxj2qWX-WEWOyLW2uUEWyXuYY9ib9MWZhqxWibyCOwfq4)
 
-Figure 9—Code: Calling the main function.
+_Figure 9—Code: Calling the main function._
 
 Because python is interpreted, we need to put the code that calls the main function outside a function. This if sentence does it by accessing the name of the program being called. The name is stored in the “__name__” variable. If the program is invoked directly, Python assigns its value to “__main__”. This if method detects this instruction and then runs a method, in our case we run the main method. More information on the “__name__” variable can be found in: [4].
 
-4.1.2.3 Getting the data. Because the data we have is stored in a csv format, we need to build the code that will allow us to go through every record in the file and store it in python. 
+**4.1.2.3 Getting the data**. Because the data we have is stored in a csv format, we need to build the code that will allow us to go through every record in the file and store it in python. 
 
 The following is the code that allow us to perform this actions: 
 
 ![](https://lh7-us.googleusercontent.com/P3B1KQpnT8raMwpyZJf8Jt4Ht0bn_t6NtdWc7kSU3NKkM5BxQtnfiyy34kCDCn2i6BSxmZD66J0tNimrIc-O8dZSm_jmn6E75914RuypPtzEt_p8ApmOsnnnULTwS6o84p9cLOxEYNxDin1TV761VGo)
 
-Figure 10—Code: Function that obtains the data from the dataset in csv format
+_Figure 10—Code: Function that obtains the data from the dataset in csv format_
 
 The way we read the file is that we open it, and we take the data in each record (row). The sentences that follow explain the way this is done in the code above.
 
@@ -274,11 +246,11 @@ The sentence could be read as: “the ‘data’ list is composed by a row for e
 
 At the end, we return the list with the contents of the csv file. 
 
-4.1.2.4 Obtain the sentiments of each instance. With the data we’ve taken from the csv, we now need to get the sentiment from each instance so that we can analyze it. The information we need for a proper analysis is the polarity of the text and also the classification in which the polarity enters. This functionality is put inside the “analyze_sentiment” function, which receives the data inside the csv to analyze. The following image describes the process of doing so:
+**4.1.2.4 Obtain the sentiments of each instance**. With the data we’ve taken from the csv, we now need to get the sentiment from each instance so that we can analyze it. The information we need for a proper analysis is the polarity of the text and also the classification in which the polarity enters. This functionality is put inside the “analyze_sentiment” function, which receives the data inside the csv to analyze. The following image describes the process of doing so:
 
 ![](https://lh7-us.googleusercontent.com/uc-ryuxj7p6RZwlWRam_DfAgp7djPWKcauBu8OCt1UfRlRa8HnD03fP0POvTlRZgTXH4jeuMIhaBgNh4Zqx6QnT0QbhsW0B_LcoNA2quZPTiGJrkBwlzFIiBSnaKIiYvcHw_0-Ak6iiS4fHePaR4AXE)
 
-Figure 11—Code: Sentiment analysis function
+_Figure 11—Code: Sentiment analysis function_
 
 We first instantiate a new matrix “results” in which we’re gonna put the results of the analysis. We then analyze each line in the data array individually and store the results of the analysis inside the results matrix. 
 
@@ -290,11 +262,11 @@ And we then classify the obtained polarity calling a function ”clasify_sentime
 
 At last, we add the row with the results to the results matrix which we then return so that we can process the results of the analysis.
 
-4.1.2.5 Finding the polarity of a text. To find the polarity of the text, we will use the TextBlob class from the texblob library. This functionality is put inside the “get_text_polarity” method which receives the text to be analyzed and returns the sentiment polarity. The following code explains how:
+**4.1.2.5 Finding the polarity of a text**. To find the polarity of the text, we will use the TextBlob class from the texblob library. This functionality is put inside the “get_text_polarity” method which receives the text to be analyzed and returns the sentiment polarity. The following code explains how:
 
 ![](https://lh7-us.googleusercontent.com/MPKJjjRTjNyD-DgQ48AEGm5gfSelBPj3rWMu_2wJuqWhFgyk3zZginXNMAj-DzEiiUBPX__6CpbYS8Ks3IKYqA7ctA40Ie7OIzEIAHBDx4xitW7kKI-ct_wjKO9j7-Z9YyP2lsITcXu8g_FlY8egxm0)
 
-Figure 12—Code: Find text polarity.
+_Figure 12—Code: Find text polarity._
 
 The process of getting the polarity is simple because the TextBlob class has a built in method that calculates the sentiment of any given text, so the code transforms the text into a textblob, and then uses the class to access the polarity.
 
@@ -304,19 +276,19 @@ Then we access the polarity. The blob class has a sentiment attribute which cont
 
   
 
-4.1.2.6 Classifying the sentiment. Sentiment classification is the process of figuring out in which cluster the polarity of the text fits in. The most simple way to do so is by having three clusters: negative (polarity < 0), neutral (polarity = 0) and positive (polarity > 0). So we receive the polarity, check the conditions, and then return the classification in which the value fits. This functionality is put inside a “classify_sentiment” function which receives the polarity and returns the classification in which the polarity fits in. The process is then written in the following way:
+**4.1.2.6 Classifying the sentiment**. Sentiment classification is the process of figuring out in which cluster the polarity of the text fits in. The most simple way to do so is by having three clusters: negative (polarity < 0), neutral (polarity = 0) and positive (polarity > 0). So we receive the polarity, check the conditions, and then return the classification in which the value fits. This functionality is put inside a “classify_sentiment” function which receives the polarity and returns the classification in which the polarity fits in. The process is then written in the following way:
 
 ![](https://lh7-us.googleusercontent.com/GEShpV77QveJoZRqOhxu0ZCzPDoPIzARgRXu2V5QWAwDmTaBtNNNUUUJn-86IlEZXilhm-Ht-_76vKzsrHWurdXsoyHXUM8o3VyR4O3DwPU6drVkCXFQcbFLeRb1r5FEvU5O_YvhUb9SzwmZxWFyZoE)
 
-Figure 13—Code: Classification of the sentiment
+_Figure 13—Code: Classification of the sentiment_
 
 We take the polarity and check which condition is fulfilled, we then return a string that indicates the classification the polarity fits in. 
 
-4.1.2.7 Save the results as csv. The data we want to save is the analyzed text, so that we can see why the model may have preferred a sentiment over another; the polarity, so that we get to see the result the model has assigned; and the classification, so that we can quickly identify and work with the data based on its classification.
+**4.1.2.7 Save the results as csv**. The data we want to save is the analyzed text, so that we can see why the model may have preferred a sentiment over another; the polarity, so that we get to see the result the model has assigned; and the classification, so that we can quickly identify and work with the data based on its classification.
 
 ![](https://lh7-us.googleusercontent.com/IzfTiT3oJllY0isJhNOWLwwgEOkoj1_XL101RPMskjYoOaz1Xs2mQJG3fCcwyLLW1KqpS8NqqZoTxS48CXgTyRiNyS8uXtky2RYLPOZed-q7dowOVjXh7C3kixJlQCZOfCfOa3rFxz0QN5MRBWmShpE)
 
-Figure 14—Code: Saving the results of the analysis in csv format.
+_Figure 14—Code: Saving the results of the analysis in csv format._
 
 To do this, we will first use a with statement, which checks for the existence of the file in a given path and, if it is non-existent, will create it, after finishing writing the file, python will close the open file automatically. 
 
@@ -328,11 +300,11 @@ With the line “writer.writeheader()” we “print” into the csv file the he
 
 With the line “writer.writerows(analyzed_data)” we “print” all the instances of data contained in the analyzed_data parameter. 
 
-4.1.2.8 Save a frequency graph comparing each sentiment. The last thing we have to do is to put the data in a more visually appealing format that will make the analysis of the data gathered easier. The method we have chosen is a frequency bar chart that will indicate the counting of instances in each sentiment group. This functionality is put in the function “visualize_sentiment_cunts”. The following image shows the code used to do so:
+**4.1.2.8 Save a frequency graph comparing each sentiment**. The last thing we have to do is to put the data in a more visually appealing format that will make the analysis of the data gathered easier. The method we have chosen is a frequency bar chart that will indicate the counting of instances in each sentiment group. This functionality is put in the function “visualize_sentiment_cunts”. The following image shows the code used to do so:
 
 ![](https://lh7-us.googleusercontent.com/CeC6kjnPt7G4zgbwyzTdMPGn-s_SR8Q4O5s703hs8MhiURQexNQJ9H8nQo-s0jxozwXVvpNctraciyDqh1_zWUmUHLz0TINuNWFBxAlgm2OUgpNuS5YgGSETFRJnl8HlySzLRDZ6wuVli__OWgTqyP4)
 
-Figure 15—Code: Generating the chart baked on the data.
+_Figure 15—Code: Generating the chart baked on the data._
 
 We first instance a dictionary named “sentiment_counts” containing the name of the sentiment together with a count of how many occurrences they have. We initialize them as 0 and then we increase the value of each according to how many of them they are on the result set.
 
@@ -372,13 +344,13 @@ The first one being the following chart:
 
 ![](https://lh7-us.googleusercontent.com/cir9daN3nKpCAleSU9CRdZpt-_tHRJ2CqdALbVlszS4g1X8RRLNsd8QIejaq-cLPzpSu4Z7ub56u7f2k9bzpfTYlh-HmWlGFaKaZ-pG-1ezpqA7EQqfZCwQ9DEx2UXeeFwbOKuVBshxS3BaKYd-fdvE)
 
-Figure 18—Data analysis chart.
+_Figure 18—Data analysis chart._
 
 The last one being the csv with the values obtained from the analysis:
 
 ![](https://lh7-us.googleusercontent.com/0OMZubwbBK4bUIDibz22dSWkHIG0Yeaegid1gaq5YYZMIYF4pzfVzfbyLvFXv-19utdr3-87dnag_kObk3ln9FapIE84hAvEinOPLTLC1_4z6g0i6VKQKwYgzZfUh_uw5MGSW7-4WtRJHOrgpoz2IOo)
 
-Figure 19—Data analysis output csv first rows.
+_Figure 19—Data analysis output csv first rows._
 
 ## 4.5 Results interpretation  
 
