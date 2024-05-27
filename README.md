@@ -1,5 +1,7 @@
 # 1 Introduction 
 
+[![Nombre o descripción del video](/Assets/image.png)](https://drive.google.com/file/d/1RsS6uBqbQLpXOD8CrP-WBQoIc5Mu79kE/view?usp=sharing)
+
 ## 1.1 Purpose
 
 The purpose of this practice session is to showcase how sentiment analysis can be a useful tool when processing large amounts of qualitative reviews stored in text format. It aims to guide the reader through the process of: searching the data, building the program for the data analysis and interpreting the results.
