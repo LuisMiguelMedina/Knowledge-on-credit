@@ -1,4 +1,4 @@
-# 0 Video Guide
+# Video Guide
 
 [![Nombre o descripción del video](/assets/image.png)](https://drive.google.com/file/d/1RsS6uBqbQLpXOD8CrP-WBQoIc5Mu79kE/view?usp=sharing)
 
